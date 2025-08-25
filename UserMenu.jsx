@@ -309,8 +309,8 @@ export default function UserMenu() {
           {showInstallButton && (
             <button style={menuBtnStyle} onClick={handleInstallApp}>
               {/Android|iPhone|iPad|iPod/i.test(navigator.userAgent) 
-                ? '📱 Install App'   // Mobile label
-                : '💻 Install App'}  // Desktop label
+                ? '📱 Install App'
+                : '💻 Install App'} 
             </button>
           )}
         </div>
